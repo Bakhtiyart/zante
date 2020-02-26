@@ -1,5 +1,6 @@
 <?php get_header();?>
 <?php
+
 $blog_sidebar = get_post_meta( get_the_ID(), 'zante_mtb_page_sidebar', true);
  if ( $blog_sidebar == 'none' || !is_active_sidebar('zante_default_sidebar')  ) {
     $col_class = 'col-md-12';
@@ -27,9 +28,8 @@ if ($page_padding == '' ) {
     <?php while ( have_posts() ) : the_post(); ?>
 
       <?php
-        $event_start_date = get_post_meta( get_the_ID(), 'ept_event_date', true );
-        $enent_end_date = get_post_meta( get_the_ID(), 'ept_event_date_end', true );
-        $location= get_post_meta( get_the_ID(), 'ept_event_location', true );
+      
+        $location= get_post_meta( get_the_ID(), '_event_location', true );
       ?>
 
       <!-- ARTICLE  -->

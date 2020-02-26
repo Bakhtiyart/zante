@@ -143,7 +143,7 @@ function wptp_create_post_type() {
 function ep_eventposts_metaboxes() {
     add_meta_box( 'ept_event_date_start', 'Start Date and Time', 'ept_event_date', 'event', 'side', 'default', array( 'id' => '_start') );
     add_meta_box( 'ept_event_date_end', 'End Date and Time', 'ept_event_date', 'event', 'side', 'default', array('id'=>'_end') );
-    add_meta_box( 'ept_event_location', 'Event Location', 'ept_event_location', 'event', 'side', 'default', array('id'=>'_end') );
+    add_meta_box( 'ept_event_location', 'Event Location', 'ept_event_location', 'event', 'side', 'default', array('id'=>'_event_location') );
 }
 add_action( 'admin_init', 'ep_eventposts_metaboxes' );
   
@@ -238,6 +238,7 @@ function ep_eventposts_save_meta( $post_id, $post ) {
   
     foreach ($metabox_ids as $key ) {
         $events_meta[$key . '_month'] = $_POST[$key . '_month'];
+        $events_meta[$key . '_event_location'] = $_POST[$key . '_event_location'];
         $events_meta[$key . '_day'] = $_POST[$key . '_day'];
             if($_POST[$key . '_hour']<10){
                  $events_meta[$key . '_hour'] = '0'.$_POST[$key . '_hour'];
@@ -250,6 +251,7 @@ function ep_eventposts_save_meta( $post_id, $post ) {
         $events_meta[$key . '_eventtimestamp'] = $events_meta[$key . '_year'] . $events_meta[$key . '_month'] . $events_meta[$key . '_day'] . $events_meta[$key . '_hour'] . $events_meta[$key . '_minute'];
     }
   
+    $events_meta['_event_location'] = $_POST['_event_location'];
     // Add values of $events_meta as custom fields
   
     foreach ( $events_meta as $key => $value ) { // Cycle through the $events_meta array!
