@@ -1,0 +1,1902 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Zante\n"
+"POT-Creation-Date: 2020-02-26 00:40+0500\n"
+"PO-Revision-Date: 2020-02-26 00:57+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:5
+msgid "404"
+msgstr "404"
+
+#: comments.php:60
+#, fuzzy
+msgid "Trackbacks &amp; Pingbacks"
+msgstr "Оплата и доставка"
+
+#: core/admin/demo-importer.php:47
+#, php-format
+msgid ""
+"Important notes: </strong> <br><br>\n"
+"    - Use this panel to import content from theme demo example(s). If you "
+"want to try multiple demos, please use %s plugin to reset your WordPress "
+"installation after each import and try another demo afterwards. <br>- Import "
+"process will take time needed to download all attachments from the demo web "
+"site."
+msgstr ""
+
+#: core/admin/demo-importer.php:51
+#, php-format
+msgid ""
+"<br>- If the import stalls and fails to respond after a few minutes you are "
+"suffering from PHP configuration limits that are set too low to complete the "
+"process. More Details about WordPress requirements can be found %s"
+msgstr ""
+
+#: core/admin/demo-importer.php:53
+msgid ""
+" You should contact your hosting provider and ask them to increase those "
+"limits to a minimum as follows:"
+msgstr ""
+
+#: core/admin/demo-importer.php:62
+msgid "REQUIREMENT"
+msgstr ""
+
+#: core/admin/demo-importer.php:63
+msgid "REQUIRED VALUE"
+msgstr "ТРЕБУЕМОЕ ЗНАЧЕНИЕ"
+
+#: core/admin/demo-importer.php:65
+msgid "CURRENT VALUE"
+msgstr "ТЕКУЩАЯ ЗНАЧЕНИЕ"
+
+#: core/admin/demo-importer.php:68
+#, fuzzy
+msgid "PHP Version"
+msgstr "Сгенерированный PHP"
+
+#: core/admin/demo-importer.php:74
+#, fuzzy
+msgid "max_execution_time"
+msgstr "Макс"
+
+#: core/admin/demo-importer.php:81
+#, fuzzy
+msgid "memory_limit"
+msgstr "Ограничение"
+
+#: core/admin/demo-importer.php:88
+#, fuzzy
+msgid "post_max_size"
+msgstr "Размер"
+
+#: core/admin/demo-importer.php:95
+#, fuzzy
+msgid "upload_max_filesize"
+msgstr "Максимальная цена"
+
+#: core/admin/demo-importer.php:118
+msgid "Zante Home Version 1"
+msgstr ""
+
+#: core/admin/demo-importer.php:119
+msgid "Zante Home Version 2"
+msgstr ""
+
+#: core/admin/demo-importer.php:120
+msgid "Zante Home Version 3"
+msgstr ""
+
+#: core/admin/demo-importer.php:121
+msgid "Zante Home Version 4"
+msgstr ""
+
+#: core/admin/install-plugins.php:21
+msgid "Eagle Core"
+msgstr ""
+
+#: core/admin/install-plugins.php:28
+#, fuzzy
+msgid "Eagle Demo Importer"
+msgstr "One Click Demo Import"
+
+#: core/admin/install-plugins.php:35
+msgid "Eagle Booking"
+msgstr ""
+
+#: core/admin/install-plugins.php:42
+#, fuzzy
+msgid "Revolution Slider"
+msgstr "Слайдер партнеров"
+
+#: core/admin/install-plugins.php:49
+msgid "WPBakery Page Builder"
+msgstr "WPBakery Page Builder"
+
+#: core/admin/install-plugins.php:56
+msgid "Envato Market"
+msgstr ""
+
+#: core/admin/install-plugins.php:63
+#, fuzzy
+msgid "MailChimp for WordPress"
+msgstr "Репозиторий WordPress"
+
+#: core/admin/install-plugins.php:68
+#, fuzzy
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: core/admin/install-plugins.php:92
+#: include/tgm/class-tgm-plugin-activation.php:334
+#, fuzzy
+msgid "Install Required Plugins"
+msgstr "Установка необходимых плагинов"
+
+#: core/admin/install-plugins.php:93
+#: include/tgm/class-tgm-plugin-activation.php:335
+#, fuzzy
+msgid "Install Plugins"
+msgstr "Установить плагины"
+
+#. translators: %s: plugin name.
+#: core/admin/install-plugins.php:94
+#: include/tgm/class-tgm-plugin-activation.php:337
+#, fuzzy, php-format
+msgid "Installing Plugin: %s"
+msgstr "Установка плагина: %s"
+
+#: core/admin/install-plugins.php:95
+#: include/tgm/class-tgm-plugin-activation.php:340
+#, fuzzy
+msgid "Something went wrong with the plugin API."
+msgstr "Что-то пошло не так с API-интерфейсом плагина."
+
+#. translators: 1: plugin name(s).
+#: core/admin/install-plugins.php:96
+#: include/tgm/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1: plugin name(s).
+#: core/admin/install-plugins.php:97
+#: include/tgm/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: core/admin/install-plugins.php:98
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1: plugin name(s).
+#: core/admin/install-plugins.php:99
+#: include/tgm/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1: plugin name(s).
+#: core/admin/install-plugins.php:100
+#: include/tgm/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: core/admin/install-plugins.php:101
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1: plugin name(s).
+#: core/admin/install-plugins.php:102
+#: include/tgm/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: core/admin/install-plugins.php:103
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: core/admin/install-plugins.php:104
+#: include/tgm/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: core/admin/install-plugins.php:105
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: core/admin/install-plugins.php:106
+#: include/tgm/class-tgm-plugin-activation.php:392
+#, fuzzy
+msgid "Return to Required Plugins Installer"
+msgstr "Вернитесь к установщику плагинов"
+
+#: core/admin/install-plugins.php:107
+#: include/tgm/class-tgm-plugin-activation.php:394
+#: include/tgm/class-tgm-plugin-activation.php:3244
+#, fuzzy
+msgid "Plugin activated successfully."
+msgstr "Плагин успешно активирован."
+
+#: core/admin/install-plugins.php:108
+#, fuzzy, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Все плагины установлены и успешно активированы. %1$s"
+
+#: core/admin/metaboxes.php:15 core/admin/theme-options.php:619
+#, fuzzy
+msgid "Settings"
+msgstr "Настройки"
+
+#: core/admin/metaboxes.php:20
+#, fuzzy
+msgid "Page Layout"
+msgstr "Макет"
+
+#: core/admin/metaboxes.php:28
+#, fuzzy
+msgid "Top Bar"
+msgstr "Показать панель заголовка?"
+
+#: core/admin/metaboxes.php:41 core/admin/theme-options.php:286
+msgid "Transparent Top Bar"
+msgstr " Заголовок шапки"
+
+#: core/admin/metaboxes.php:54 core/admin/theme-options.php:173
+#, fuzzy
+msgid "Sticky Header"
+msgstr "Липкое меню?"
+
+#: core/admin/metaboxes.php:67
+#, fuzzy
+msgid "Transparent Header"
+msgstr "Шапка"
+
+#: core/admin/metaboxes.php:80
+#, fuzzy
+msgid "Semi Transparent Header"
+msgstr "Шапка"
+
+#: core/admin/metaboxes.php:93
+#, fuzzy
+msgid "Page Title"
+msgstr "(без заголовки)"
+
+#: core/admin/metaboxes.php:106
+msgid "Page Title Background Image"
+msgstr ""
+
+#: core/admin/metaboxes.php:117
+#, fuzzy
+msgid "Padding Top / Bottom"
+msgstr "Внутренний отступ"
+
+#: core/admin/metaboxes.php:130 core/admin/theme-options.php:873
+#: core/admin/theme-options.php:985
+#, fuzzy
+msgid "Sidebar"
+msgstr "Сайдбар"
+
+#: core/admin/metaboxes.php:136 core/admin/theme-options.php:876
+#: core/admin/theme-options.php:988
+#, fuzzy
+msgid "Left"
+msgstr "Слева"
+
+#: core/admin/metaboxes.php:137 core/admin/theme-options.php:877
+#: core/admin/theme-options.php:989
+#, fuzzy
+msgid "None"
+msgstr "Никакой"
+
+#: core/admin/metaboxes.php:138 core/admin/theme-options.php:878
+#: core/admin/theme-options.php:990
+#, fuzzy
+msgid "Right"
+msgstr "Справа"
+
+#. Theme Name of the plugin/theme
+#: core/admin/theme-options.php:28
+msgid "Zante"
+msgstr ""
+
+#: core/admin/theme-options.php:29
+#, fuzzy
+msgid "Zante Options"
+msgstr "Опции импорта"
+
+#: core/admin/theme-options.php:150
+#, fuzzy
+msgid "Header"
+msgstr "Шапка"
+
+#: core/admin/theme-options.php:157
+#, fuzzy
+msgid "Logo"
+msgstr "Лого"
+
+#: core/admin/theme-options.php:165
+#, fuzzy
+msgid "Light Logo (Optional)"
+msgstr "Светлый"
+
+#: core/admin/theme-options.php:166
+#, fuzzy
+msgid "Logo for the transparent header."
+msgstr "Шапка"
+
+#: core/admin/theme-options.php:174 core/admin/theme-options.php:182
+msgid "This option can be overridden on each page's layout option."
+msgstr ""
+
+#: core/admin/theme-options.php:181
+msgid "Enable Transparent Header"
+msgstr "Шапка"
+
+#: core/admin/theme-options.php:190
+msgid "Logo Height"
+msgstr "Лого"
+
+#: core/admin/theme-options.php:191
+msgid "Note: Logo Height value is in px."
+msgstr ""
+
+#: core/admin/theme-options.php:199
+msgid "Logo Top/Bottom Padding"
+msgstr ""
+
+#: core/admin/theme-options.php:200
+msgid "Note: Padding value is in px. (min. 1px)"
+msgstr ""
+
+#: core/admin/theme-options.php:208
+msgid "Logo Margin Top (Deprecated - Use Padding)"
+msgstr ""
+
+#: core/admin/theme-options.php:209
+msgid "Note: Logo margin value is in px."
+msgstr ""
+
+#: core/admin/theme-options.php:216
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: core/admin/theme-options.php:224
+msgid "Bottom Border Color"
+msgstr "Цвет рамки"
+
+#: core/admin/theme-options.php:232
+msgid "Main Menu Color"
+msgstr "Расположение основного меню"
+
+#: core/admin/theme-options.php:243
+msgid "Sub Menu Background Color"
+msgstr "Цвет фона"
+
+#: core/admin/theme-options.php:251
+msgid "Sub Menu Background Hover Color"
+msgstr ""
+
+#: core/admin/theme-options.php:259
+#, fuzzy
+msgid "Sub Menu Border Color"
+msgstr "Цвет рамки"
+
+#: core/admin/theme-options.php:267
+#, fuzzy
+msgid "Sub Menu Color"
+msgstr "Основное меню"
+
+#: core/admin/theme-options.php:279
+#, fuzzy
+msgid "Enable Top Bar"
+msgstr "Показать панель заголовка?"
+
+#: core/admin/theme-options.php:280 core/admin/theme-options.php:287
+msgid "This option can be overridden on each page's layout option"
+msgstr ""
+
+#: core/admin/theme-options.php:295
+#, fuzzy
+msgid "Top Bar Background Color"
+msgstr "Цвет фона"
+
+#: core/admin/theme-options.php:304
+#, fuzzy
+msgid "Top Bar Border Color"
+msgstr "Цвет рамки"
+
+#: core/admin/theme-options.php:313
+#, fuzzy
+msgid "Top Bar Color"
+msgstr "Показать панель заголовка?"
+
+#: core/admin/theme-options.php:325 core/admin/theme-options.php:360
+#, fuzzy
+msgid "Welcome Message"
+msgstr "Сообщение"
+
+#: core/admin/theme-options.php:326
+msgid "Please enter your welcome message"
+msgstr ""
+
+#: core/admin/theme-options.php:333 core/admin/theme-options.php:361
+#, fuzzy
+msgid "Phone"
+msgstr "Введите телефонный номер"
+
+#: core/admin/theme-options.php:334
+#, fuzzy
+msgid "Please enter your phone number"
+msgstr "Введите телефонный номер"
+
+#: core/admin/theme-options.php:340
+#, fuzzy
+msgid "Phone Link"
+msgstr "Телефон"
+
+#: core/admin/theme-options.php:341
+msgid "Please enter your phone number link"
+msgstr ""
+
+#: core/admin/theme-options.php:348 core/admin/theme-options.php:362
+#: core/translate.php:32
+#, fuzzy
+msgid "Email"
+msgstr "Эл. почта"
+
+#: core/admin/theme-options.php:349
+msgid "Please enter your Email"
+msgstr ""
+
+#: core/admin/theme-options.php:357
+#, fuzzy
+msgid "Hide on Mobile"
+msgstr "Телефон"
+
+#: core/admin/theme-options.php:358
+msgid "Hide or show top bar elements when viewing on a mobile device."
+msgstr ""
+
+#: core/admin/theme-options.php:385
+msgid "Typography"
+msgstr ""
+
+#: core/admin/theme-options.php:386
+msgid "Manage fonts and typography settings"
+msgstr ""
+
+#: core/admin/theme-options.php:392
+#, fuzzy
+msgid "Main text font"
+msgstr "Расположение основного меню"
+
+#: core/admin/theme-options.php:400
+msgid "This is your main font, used for standard text"
+msgstr ""
+
+#: core/admin/theme-options.php:418
+msgid "Headings font"
+msgstr ""
+
+#: core/admin/theme-options.php:427
+msgid "This is a font used for titles and headings"
+msgstr ""
+
+#: core/admin/theme-options.php:446
+#, fuzzy
+msgid "Navigation font"
+msgstr "Навигация по комментариям"
+
+#: core/admin/theme-options.php:454
+msgid "This is a font used for main website navigation"
+msgstr ""
+
+#: core/admin/theme-options.php:472
+msgid "Main text font size"
+msgstr ""
+
+#: core/admin/theme-options.php:473
+msgid "This is your default text font size"
+msgstr ""
+
+#: core/admin/theme-options.php:484
+#, fuzzy
+msgid "Navigation font size"
+msgstr "Навигация по комментариям"
+
+#: core/admin/theme-options.php:485
+msgid "Applies to main website navigation"
+msgstr ""
+
+#: core/admin/theme-options.php:496
+#, fuzzy
+msgid "H1 font size"
+msgstr "Размер"
+
+#: core/admin/theme-options.php:497
+msgid "Applies to H1 elements"
+msgstr ""
+
+#: core/admin/theme-options.php:507
+#, fuzzy
+msgid "H2 font size"
+msgstr "Размер"
+
+#: core/admin/theme-options.php:508
+msgid "Applies to H2 elements"
+msgstr ""
+
+#: core/admin/theme-options.php:518
+#, fuzzy
+msgid "H3 font size"
+msgstr "Размер"
+
+#: core/admin/theme-options.php:519
+msgid "Applies to H3 elements"
+msgstr ""
+
+#: core/admin/theme-options.php:529
+#, fuzzy
+msgid "H4 font size"
+msgstr "Размер"
+
+#: core/admin/theme-options.php:530
+msgid "Applies to H4 elements"
+msgstr ""
+
+#: core/admin/theme-options.php:540
+#, fuzzy
+msgid "H5 font size"
+msgstr "Размер"
+
+#: core/admin/theme-options.php:541
+msgid "Applies to H5 elements"
+msgstr ""
+
+#: core/admin/theme-options.php:551
+#, fuzzy
+msgid "H6 font size"
+msgstr "Размер"
+
+#: core/admin/theme-options.php:552
+msgid "Applies to H6 elements"
+msgstr ""
+
+#: core/admin/theme-options.php:570
+#, fuzzy
+msgid "Color Scheme"
+msgstr "Выберите цвет"
+
+#: core/admin/theme-options.php:576
+#, fuzzy
+msgid "Primary Color"
+msgstr "Основное меню"
+
+#: core/admin/theme-options.php:577
+#, fuzzy
+msgid "Main Color Scheme"
+msgstr "Расположение основного меню"
+
+#: core/admin/theme-options.php:588
+#, fuzzy
+msgid "Body Background Color"
+msgstr "Цвет фона"
+
+#: core/admin/theme-options.php:596
+#, fuzzy
+msgid "Body Text Color"
+msgstr "Цвет текста"
+
+#: core/admin/theme-options.php:604
+#, fuzzy
+msgid "Heading Color"
+msgstr "Заголовок блока"
+
+#: core/admin/theme-options.php:620
+msgid "These are some additional miscellaneous theme settings"
+msgstr ""
+
+#: core/admin/theme-options.php:626
+#, fuzzy
+msgid "Layout"
+msgstr "Макет"
+
+#: core/admin/theme-options.php:627
+msgid "Choose your site layout"
+msgstr ""
+
+#: core/admin/theme-options.php:639 core/admin/theme-options.php:959
+#, fuzzy
+msgid "Background Image"
+msgstr "Цвет фона"
+
+#: core/admin/theme-options.php:640 core/admin/theme-options.php:960
+msgid "Upload your background image"
+msgstr ""
+
+#: core/admin/theme-options.php:648
+msgid "Preloader"
+msgstr ""
+
+#: core/admin/theme-options.php:649
+msgid "Enable Preloader"
+msgstr ""
+
+#: core/admin/theme-options.php:656
+msgid "Preloader only on Home Page"
+msgstr ""
+
+#: core/admin/theme-options.php:657
+msgid "Enable Preloader on Home Page"
+msgstr ""
+
+#: core/admin/theme-options.php:665
+#, fuzzy
+msgid "Preloader Style"
+msgstr "Стиль"
+
+#: core/admin/theme-options.php:667
+#, fuzzy
+msgid "Style 1"
+msgstr "Стиль 1"
+
+#: core/admin/theme-options.php:668
+#, fuzzy
+msgid "Style 2"
+msgstr "Стиль 2"
+
+#: core/admin/theme-options.php:669
+#, fuzzy
+msgid "Style 3"
+msgstr "Стиль"
+
+#: core/admin/theme-options.php:678
+#, fuzzy
+msgid "Preloader Color"
+msgstr "Цвет фона"
+
+#: core/admin/theme-options.php:687
+#, fuzzy
+msgid "Gradient Overlay"
+msgstr "Градиент"
+
+#: core/admin/theme-options.php:688
+#, fuzzy
+msgid "Show gradient overlay"
+msgstr "Градиент"
+
+#: core/admin/theme-options.php:695
+#, fuzzy
+msgid "Back to Top Button"
+msgstr "Кнопка"
+
+#: core/admin/theme-options.php:696
+msgid "Enable the back to top button on your pages"
+msgstr ""
+
+#: core/admin/theme-options.php:703
+msgid "Back to Top Button on Mobile"
+msgstr ""
+
+#: core/admin/theme-options.php:704
+msgid "Enable the back to top button when viewing on a mobile device."
+msgstr ""
+
+#: core/admin/theme-options.php:711
+msgid "Back to Top Button Side"
+msgstr ""
+
+#: core/admin/theme-options.php:712
+msgid "Choose the side to display the back to top button"
+msgstr ""
+
+#: core/admin/theme-options.php:733
+#, fuzzy
+msgid "Footer"
+msgstr "Футер"
+
+#: core/admin/theme-options.php:734
+msgid "Manage default settings for your Footer"
+msgstr ""
+
+#: core/admin/theme-options.php:740
+#, fuzzy
+msgid "Footer Columns"
+msgstr "Две колонки"
+
+#: core/admin/theme-options.php:741
+msgid "Choose number of columns to display in footer area"
+msgstr ""
+
+#: core/admin/theme-options.php:742
+#, php-format
+msgid ""
+"Each column represents one Footer Sidebar in <a href=\"%s\" target=\"_blank"
+"\">Apperance -> Widgets</a> settings."
+msgstr ""
+
+#: core/admin/theme-options.php:744
+#, fuzzy
+msgid "1 Column"
+msgstr "Размер колонки"
+
+#: core/admin/theme-options.php:745
+#, fuzzy
+msgid "2 Columns"
+msgstr "Две колонки"
+
+#: core/admin/theme-options.php:746
+#, fuzzy
+msgid "3 Columns"
+msgstr "Две колонки"
+
+#: core/admin/theme-options.php:747
+#, fuzzy
+msgid "4 Columns"
+msgstr "Две колонки"
+
+#: core/admin/theme-options.php:756
+#, fuzzy
+msgid "Footer Background Color"
+msgstr "Цвет фона"
+
+#: core/admin/theme-options.php:764
+#, fuzzy
+msgid "Footer Border Color"
+msgstr "Цвет рамки"
+
+#: core/admin/theme-options.php:773
+#, fuzzy
+msgid "Footer Primary Color"
+msgstr "Футер"
+
+#: core/admin/theme-options.php:781
+#, fuzzy
+msgid "Footer Links Color"
+msgstr "Футер"
+
+#: core/admin/theme-options.php:792
+#, fuzzy
+msgid "Copyright Background Color"
+msgstr "Цвет фона"
+
+#: core/admin/theme-options.php:800
+#, fuzzy
+msgid "Footer Copyright Section Text"
+msgstr "Нижний колонтитул"
+
+#: core/admin/theme-options.php:801
+msgid ""
+"Please enter the copyright section text. e.g. &copy; 2018 Hotel Zante. All "
+"Rights Reserved"
+msgstr ""
+
+#: core/admin/theme-options.php:808
+#, fuzzy
+msgid "Footer Copyright Text Color"
+msgstr "Цвет текста"
+
+#: core/admin/theme-options.php:809
+msgid "Choose a color for your copyright text"
+msgstr ""
+
+#: core/admin/theme-options.php:817
+#, fuzzy
+msgid "Facebook Link"
+msgstr "Ссылка"
+
+#: core/admin/theme-options.php:818
+msgid "Please enter your Facebook URL"
+msgstr ""
+
+#: core/admin/theme-options.php:824
+#, fuzzy
+msgid "Twitter Link"
+msgstr "Ссылка"
+
+#: core/admin/theme-options.php:825
+msgid "Please enter your Twitter URL"
+msgstr ""
+
+#: core/admin/theme-options.php:831
+#, fuzzy
+msgid "Youtube Link"
+msgstr "Ссылка"
+
+#: core/admin/theme-options.php:832
+msgid "Please enter your Youtube URL"
+msgstr ""
+
+#: core/admin/theme-options.php:838
+#, fuzzy
+msgid "Instagram Link"
+msgstr "Ссылка"
+
+#: core/admin/theme-options.php:839
+msgid "Please enter your Instagram URL"
+msgstr ""
+
+#: core/admin/theme-options.php:845
+#, fuzzy
+msgid "Pinterest Link"
+msgstr "Ссылка"
+
+#: core/admin/theme-options.php:846
+msgid "Please enter your Pinterest URL"
+msgstr ""
+
+#: core/admin/theme-options.php:852
+#, fuzzy
+msgid "Linkedin Link"
+msgstr "Ссылка"
+
+#: core/admin/theme-options.php:853
+msgid "Please enter your Linkedin URL"
+msgstr ""
+
+#: core/admin/theme-options.php:866
+#, fuzzy
+msgid "Blog"
+msgstr "Обратная связь"
+
+#: core/admin/theme-options.php:867
+#, fuzzy
+msgid "Manage your Blog"
+msgstr "Управление"
+
+#: core/admin/theme-options.php:874
+msgid "Select sidebar side for blog pages (index, search, category, tags)"
+msgstr ""
+
+#: core/admin/theme-options.php:887
+#, fuzzy
+msgid "Excerpt limit"
+msgstr "Анонс"
+
+#: core/admin/theme-options.php:888
+msgid "Specify your excerpt limit"
+msgstr ""
+
+#: core/admin/theme-options.php:889
+msgid "Note: Value represents number of characters"
+msgstr ""
+
+#: core/admin/theme-options.php:897
+#, fuzzy
+msgid "Archive Page Header"
+msgstr "Шапка"
+
+#: core/admin/theme-options.php:898
+msgid ""
+"Enable the page header for archive pages (index, single, search, category, "
+"tags)"
+msgstr ""
+
+#: core/admin/theme-options.php:905 core/translate.php:15
+#, fuzzy
+msgid "Tags"
+msgstr "Теги"
+
+#: core/admin/theme-options.php:906
+msgid "Check if you want to display tags"
+msgstr ""
+
+#: core/admin/theme-options.php:913
+msgid "Share Buttons"
+msgstr "Кнопки Поделиться"
+
+#: core/admin/theme-options.php:914
+msgid "Check if you want to display share buttons"
+msgstr ""
+
+#: core/admin/theme-options.php:921
+#, fuzzy
+msgid "About Author"
+msgstr "Автор"
+
+#: core/admin/theme-options.php:922
+msgid "Check if you want to display the about author area"
+msgstr ""
+
+#: core/admin/theme-options.php:938 core/helpers.php:998
+#, fuzzy
+msgid "Page"
+msgstr "Страница"
+
+#: core/admin/theme-options.php:939
+#, fuzzy
+msgid "Manage your Page"
+msgstr "Управление"
+
+#: core/admin/theme-options.php:946
+#, fuzzy
+msgid "Page Header"
+msgstr "Шапка"
+
+#: core/admin/theme-options.php:947
+msgid "Choose Page Header Style"
+msgstr ""
+
+#: core/admin/theme-options.php:968
+#, fuzzy
+msgid "Page Header Background Color"
+msgstr "Цвет фона"
+
+#: core/admin/theme-options.php:977
+msgid "Display Breadcrumb"
+msgstr "Показать хлебное крошки"
+
+#: core/admin/theme-options.php:978
+msgid "Check if you want to display breadcrumb area on pages"
+msgstr ""
+
+#: core/admin/theme-options.php:986
+msgid "Select sidebar side for pages"
+msgstr ""
+
+#: core/admin/theme-options.php:1005
+msgid "Google Map"
+msgstr "Google Map"
+
+#: core/admin/theme-options.php:1011
+msgid "API Key"
+msgstr "API Key"
+
+#: core/admin/theme-options.php:1012
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">Getting Google Maps API Key</a>."
+msgstr ""
+
+#: core/admin/theme-options.php:1025
+#, fuzzy
+msgid "Additional Code"
+msgstr "Код купона"
+
+#: core/admin/theme-options.php:1026
+msgid "These options are for advanced users only, so use it with caution."
+msgstr ""
+
+#: core/admin/theme-options.php:1032
+#, fuzzy
+msgid "Additional CSS"
+msgstr "Детали"
+
+#: core/admin/theme-options.php:1033
+msgid "Use this field to add CSS code and modify the default theme styling"
+msgstr ""
+
+#: core/admin/theme-options.php:1042
+#, fuzzy
+msgid "Additional JavaScript"
+msgstr "Детали"
+
+#: core/admin/theme-options.php:1043
+msgid "Use this field to add JavaScript code"
+msgstr ""
+
+#: core/admin/theme-options.php:1044
+msgid ""
+"Note: Please use clean execution JavaScript code without \"script\" tags"
+msgstr ""
+
+#: core/admin/theme-options.php:1058
+msgid "Translation Type"
+msgstr "Тип перевода"
+
+#: core/admin/theme-options.php:1059
+#, php-format
+msgid ""
+"Please note: Built-in translation has been deprecated, please use a string "
+"translation plugin to translate the theme.<a href=\"%s\" target=\"_blank\"> "
+"How to translate the theme</a>."
+msgstr ""
+
+#: core/admin/theme-options.php:1073
+msgid "Display Language Switcher in the top bar for"
+msgstr ""
+
+#: core/admin/theme-options.php:1074 core/admin/theme-options.php:1087
+msgid ""
+"Make sure that you have installed and you have activated the specific plugin."
+msgstr ""
+
+#: core/admin/theme-options.php:1076 core/admin/theme-options.php:1089
+msgid "WPML"
+msgstr ""
+
+#: core/admin/theme-options.php:1077 core/admin/theme-options.php:1090
+msgid "Polylang"
+msgstr ""
+
+#: core/admin/theme-options.php:1086
+msgid "Display Language Switcher in the footer for"
+msgstr ""
+
+#: core/admin/theme-options.php:1114
+msgid "Translation"
+msgstr ""
+
+#: core/admin/theme-options.php:1115
+msgid ""
+"- Select Theme Builtin to quickly translate or change the text in this "
+"theme. If you want to remove the text completely instead of modifying it, "
+"you can use <strong>\"-1\"</strong> as a value for particular field "
+"translation. <br/><br/>- Select Plugin for a multilingual website and use "
+"multilanguage plugins (such as WPML or Polylang) and manual translation "
+"with .po and .mo files located inside the \"languages\" folder."
+msgstr ""
+
+#: core/admin/theme-options.php:1127
+msgid "Performance"
+msgstr ""
+
+#: core/admin/theme-options.php:1128
+msgid ""
+"Use these options to put your theme to a high speed as well as save your "
+"server resources!"
+msgstr ""
+
+#: core/admin/theme-options.php:1135
+msgid "Disable additional image sizes"
+msgstr ""
+
+#: core/admin/theme-options.php:1136
+msgid ""
+"By default, theme generates additional image size for each of the layouts it "
+"offers. You can use this option to avoid creating additional sizes if you "
+"are not using particular layout in order to save your server space."
+msgstr ""
+
+#: core/admin/theme-options.php:1138 core/helpers.php:131
+msgid "480 x 480"
+msgstr ""
+
+#: core/admin/theme-options.php:1139 core/helpers.php:132
+msgid "400 x 800"
+msgstr ""
+
+#: core/admin/theme-options.php:1140 core/helpers.php:133
+msgid "720 x 520"
+msgstr ""
+
+#: core/admin/theme-options.php:1141 core/helpers.php:134
+msgid "1170 x 650"
+msgstr ""
+
+#: core/admin/theme-options.php:1142 core/helpers.php:135
+msgid "1920 x 800"
+msgstr ""
+
+#: core/admin/theme-options.php:1159
+#, fuzzy
+msgid "Important note:"
+msgstr "Добавить заметку"
+
+#: core/admin/theme-options.php:1160
+#, php-format
+msgid ""
+"Your front page is currently set to display <strong>\"latest posts\"</"
+"strong>. In order to use these options, you need to set your front page "
+"option as <strong>\"static page\"</strong> inside <a href=\"%s\" target="
+"\"_blank\">Settings => Reading</a>."
+msgstr ""
+
+#: core/helpers.php:549
+msgid "Add a menu"
+msgstr "Добавить меню"
+
+#: core/helpers.php:692
+msgid " <i class=\"fa fa-pencil\" aria-hidden=\"true\"></i>"
+msgstr " <i class=\"fa fa-pencil\" aria-hidden=\"true\"></i>"
+
+#: core/helpers.php:700
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s с %2$s"
+
+#: core/helpers.php:744 core/helpers.php:745 core/helpers.php:746
+#: core/helpers.php:747
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: core/menus.php:13
+msgid "Main Menu"
+msgstr "Главное меню"
+
+#: core/sidebars.php:19
+#, fuzzy
+msgid "Default Sidebar"
+msgstr "Сайдбар"
+
+#: core/sidebars.php:20
+#, fuzzy
+msgid "This is default sidebar"
+msgstr "Сайдбар"
+
+#: core/sidebars.php:35
+msgid "Footer # 1"
+msgstr "Футер # 1"
+
+#: core/sidebars.php:36
+#, fuzzy
+msgid "This is footer left column"
+msgstr "Слева"
+
+#: core/sidebars.php:52
+msgid "Footer # 2"
+msgstr "Футер  # 2"
+
+#: core/sidebars.php:53
+#, fuzzy
+msgid "This footer center column"
+msgstr "Футер"
+
+#: core/sidebars.php:68
+msgid "Footer # 3"
+msgstr "Футер # 3"
+
+#: core/sidebars.php:70 core/sidebars.php:86
+#, fuzzy
+msgid "This footer right column"
+msgstr "Справа"
+
+#: core/sidebars.php:85
+#, fuzzy
+msgid "Footer # 4"
+msgstr "Футер"
+
+#: core/translate.php:11
+#, fuzzy
+msgid "Menu"
+msgstr "Меню"
+
+#: core/translate.php:12
+#, fuzzy
+msgid "Read More"
+msgstr "Показать еще"
+
+#: core/translate.php:13
+#, fuzzy
+msgid "Home"
+msgstr "Главная"
+
+#: core/translate.php:14
+#, fuzzy
+msgid "Share"
+msgstr "Поделиться"
+
+#: core/translate.php:16
+msgid "Share this post on Facebook"
+msgstr "Поделиться в Facebook"
+
+#: core/translate.php:17
+msgid "Share this post on Twitter"
+msgstr "Поделиться в Twitter"
+
+#: core/translate.php:18
+msgid "Share this post on Pinterest"
+msgstr "Поделиться в Pinterest"
+
+#: core/translate.php:19
+msgid "Leave your reply"
+msgstr "Оставить Ответ"
+
+#: core/translate.php:20
+msgid "Login"
+msgstr "Логин"
+
+#: core/translate.php:21
+msgid "Comment"
+msgstr "Отправить"
+
+#: core/translate.php:22
+msgid "Comments"
+msgstr "Комментарии"
+
+#: core/translate.php:23
+msgid "Comments are closed"
+msgstr "Комментарии закрыты"
+
+#: core/translate.php:24
+msgid "You must be logged in to post a comment."
+msgstr "Вы должны войти в систему, чтобы оставить комментарий."
+
+#: core/translate.php:25
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Этот пост защищен паролем. Введите пароль для просмотра любых комментариев."
+
+#: core/translate.php:26
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: core/translate.php:27
+msgid "Newer Comments &raquo;"
+msgstr "Новые комментарии &raquo;"
+
+#: core/translate.php:28
+msgid "&laquo; Older Comments"
+msgstr "&laquo;  Старые комментарии"
+
+#: core/translate.php:29
+msgid "Submit Your Comment"
+msgstr "Опубликовать комментарий"
+
+#: core/translate.php:30
+msgid "Reply"
+msgstr "Ответить"
+
+#: core/translate.php:31
+msgid "Leave your comment"
+msgstr "Оставьте свой комментарий"
+
+#: core/translate.php:33
+msgid "Name"
+msgstr "Имя"
+
+#: core/translate.php:34
+msgid "Website"
+msgstr "Веб Сайт"
+
+#: core/translate.php:35
+msgid "Write Your Comment"
+msgstr "Напиши свой комментарий"
+
+#: core/translate.php:36
+msgid "Log Out"
+msgstr "Выход"
+
+#: core/translate.php:37
+msgid "Search Results For"
+msgstr "Результаты поиска для"
+
+#: core/translate.php:38
+msgid "No results found. Please try again with a different keyword."
+msgstr ""
+
+#: core/translate.php:39
+msgid "Search"
+msgstr "Поиск"
+
+#: core/translate.php:40 eb-templates/archive-room/archive-room.php:134
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: core/translate.php:41 eb-templates/archive-room/archive-room.php:134
+msgid "Next"
+msgstr "Следующий"
+
+#: core/translate.php:42
+msgid "Back to Home Page"
+msgstr "Вернутся на главную страницу"
+
+#: core/translate.php:43
+msgid "OOPS!! PAGE NOT FOUND"
+msgstr "К сожалению! Эта страница не может быть найдена"
+
+#: eb-templates/archive-room/archive-room.php:122
+msgid "Per Night "
+msgstr "В ночь"
+
+#: eb-templates/archive-room/archive-room.php:123
+msgid "More Details"
+msgstr "Подробнее"
+
+#: footer.php:46
+msgid "Facebook"
+msgstr "Facebook"
+
+#: footer.php:49
+msgid "Twitter"
+msgstr "Twitter"
+
+#: footer.php:52
+msgid "YouTube"
+msgstr "YouTube"
+
+#: footer.php:55
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: footer.php:58
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: footer.php:61
+msgid "Instagram"
+msgstr "Instagram"
+
+#: footer.php:74 footer.php:92
+msgid "Languages"
+msgstr "Языки"
+
+#: functions.php:88 functions.php:89
+msgid "Events"
+msgstr "События"
+
+#: functions.php:90 functions.php:93
+msgid "New Event"
+msgstr "Новое событие"
+
+#: functions.php:91
+msgid "Add New Event"
+msgstr "Добавить новое событие"
+
+#: functions.php:92
+msgid "Edit Event"
+msgstr "Изменить событие"
+
+#: functions.php:94
+msgid "View Event"
+msgstr "Посмотреть событие"
+
+#: functions.php:95
+msgid "Search Events"
+msgstr "Поиск событий"
+
+#: functions.php:96
+msgid "No Events Found"
+msgstr "События не найдены"
+
+#: functions.php:97
+msgid "No Events found in Trash"
+msgstr "В корзине нет событий"
+
+#: functions.php:122
+msgid "Event Categories"
+msgstr "Категории событий"
+
+#: functions.php:123 functions.php:130
+msgid "Event Category"
+msgstr "Категория события"
+
+#: functions.php:124
+msgid "Search Event Categories"
+msgstr "Поиск по категориям событий"
+
+#: functions.php:125
+msgid "All Event Categories"
+msgstr "Все категории событий"
+
+#: functions.php:126
+msgid "Edit Event Categories"
+msgstr "Изменить категории событий"
+
+#: functions.php:127
+msgid "Update Event Category"
+msgstr "Обновить категорию события"
+
+#: functions.php:128
+msgid "Add New Event Category"
+msgstr "Добавить новую категорию событий"
+
+#: functions.php:129
+msgid "New Event Category Name"
+msgstr "Название категории нового события"
+
+#: functions.php:145
+msgid "Room Categories"
+msgstr "Категории номеров"
+
+#: functions.php:146 functions.php:153
+msgid "Room Category"
+msgstr "Категория номера"
+
+#: functions.php:147
+msgid "Search Room Categories"
+msgstr "Поиск по категориям номеров"
+
+#: functions.php:148
+msgid "All Room Categories"
+msgstr "Все категории номеров"
+
+#: functions.php:149
+msgid "Edit Room Categories"
+msgstr "Изменить категории номеров"
+
+#: functions.php:150
+msgid "Update Room Category"
+msgstr "Обновить категорию номера"
+
+#: functions.php:151
+msgid "Add New Room Category"
+msgstr "Добавить новую категорию номера"
+
+#: functions.php:152
+msgid "New Room Category Name"
+msgstr "Название новой категории"
+
+#. translators: %s: plugin name.
+#: include/tgm/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Обновление плагина: %s"
+
+#. translators: 1: plugin name(s).
+#: include/tgm/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: include/tgm/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: include/tgm/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: include/tgm/class-tgm-plugin-activation.php:393
+#: include/tgm/class-tgm-plugin-activation.php:912
+#: include/tgm/class-tgm-plugin-activation.php:2618
+#: include/tgm/class-tgm-plugin-activation.php:3669
+msgid "Return to the Dashboard"
+msgstr "Вернуться в консоль управления"
+
+#: include/tgm/class-tgm-plugin-activation.php:395
+#: include/tgm/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1: plugin name.
+#: include/tgm/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Плагин %1$s уже актвирован."
+
+#. translators: 1: plugin name.
+#: include/tgm/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Плагин не активирован. Для этой темы требуется более высокая версия %s. "
+"Обновите плагин."
+
+#. translators: 1: dashboard link.
+#: include/tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Все плагины установлены и успешно активированы. %1$s"
+
+#: include/tgm/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Скрыть уведомление"
+
+#: include/tgm/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Для установки, обновления или активации есть один или несколько обязательных "
+"плагинов."
+
+#: include/tgm/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Пожалуйста обратитесь за помощью к администратору сайта."
+
+#: include/tgm/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: include/tgm/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Требуется обновление"
+
+#: include/tgm/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Пакет удаленных плагинов не содержит папку с именем ссылки, и переименование "
+"не работает."
+
+#: include/tgm/class-tgm-plugin-activation.php:1019
+#: include/tgm/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Обратитесь к поставщику плагинов и попросите их исправить плагин в "
+"соответствии с рекомендациями WordPress."
+
+#: include/tgm/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Пакет удаленных плагинов состоит из нескольких файлов, но файлы не упакованы "
+"в архив."
+
+#: include/tgm/class-tgm-plugin-activation.php:1206
+#: include/tgm/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "и"
+
+#. translators: %s: version number
+#: include/tgm/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: include/tgm/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr "Необходимые"
+
+#: include/tgm/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr "Рекомендуемые"
+
+#: include/tgm/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr "Репозиторий WordPress"
+
+#: include/tgm/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr "Внешний источник"
+
+#: include/tgm/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr "Предварительно упакован"
+
+#: include/tgm/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr "Не установлено"
+
+#: include/tgm/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr "Установлены но не активированы"
+
+#: include/tgm/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr "Активный"
+
+#: include/tgm/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr "Требуемое обновление недоступно"
+
+#: include/tgm/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr "Требуется обновление"
+
+#: include/tgm/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr "Рекомендованное обновление"
+
+#. translators: 1: install status, 2: update status
+#: include/tgm/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: include/tgm/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Все<span class=\"count\">(%s)</span>"
+msgstr[1] "Все<span class=\"count\">(%s)</span>"
+msgstr[2] "Все<span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: include/tgm/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Установить <span class=\"count\">(%s)</span>"
+msgstr[1] "Установить <span class=\"count\">(%s)</span>"
+msgstr[2] "Установить <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: include/tgm/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Обновление доступно <span class=\"count\">(%s)</span>"
+msgstr[1] "Обновление доступно <span class=\"count\">(%s)</span>"
+msgstr[2] "Обновление доступно <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: include/tgm/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: include/tgm/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "неизвестно"
+
+#: include/tgm/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr "Установленная версия:"
+
+#: include/tgm/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr "Минимальная требуемая версия:"
+
+#: include/tgm/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr "Доступна версия:"
+
+#: include/tgm/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr "Нет плагинов для установки, обновления или активации."
+
+#: include/tgm/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr "Плагин"
+
+#: include/tgm/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr "Источник"
+
+#: include/tgm/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr "Тип"
+
+#: include/tgm/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr "Версия"
+
+#: include/tgm/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr "Статус"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: include/tgm/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr "Установка %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: include/tgm/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr "Обновление %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: include/tgm/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr "Активация %2$s"
+
+#: include/tgm/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr "Обновить сообщение от автора плагина:"
+
+#: include/tgm/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr "Установить"
+
+#: include/tgm/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr "Обновить"
+
+#: include/tgm/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr "Активация"
+
+#: include/tgm/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Не были выбраны плагины для установки."
+
+#: include/tgm/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Не были выбраны плагины для обновления."
+
+#: include/tgm/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr "Нет плагинов для установки."
+
+#: include/tgm/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr "Нет плагинов для обновления."
+
+#: include/tgm/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Не выбраны плагины для активации."
+
+#: include/tgm/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr "Нет плагинов для активации."
+
+#: include/tgm/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr "Не удалось активировать плагин."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: include/tgm/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Обновление плагина %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: include/tgm/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "При установке %1$s: произошла ошибка <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: include/tgm/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Не удалось выполнить установку %1$s."
+
+#: include/tgm/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Запускается процесс установки и активации. Этот процесс может занять "
+"некоторое время на некоторых хостах, поэтому, пожалуйста, будьте терпеливы."
+
+#. translators: 1: plugin name.
+#: include/tgm/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s установлен и успешно активирован."
+
+#: include/tgm/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr "Все установки и активации завершены."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: include/tgm/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка и активация плагина %1$s (%2$d/%3$d)"
+
+#: include/tgm/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Процесс установки начинается. Этот процесс может занять некоторое время на "
+"некоторых хостах, поэтому, пожалуйста, будьте терпеливы."
+
+#. translators: 1: plugin name.
+#: include/tgm/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s успешно установлен."
+
+#: include/tgm/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr "Все установки завершены."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: include/tgm/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка плагина %1$s (%2$d/%3$d)"
+
+#: include/tgm/class-tgm-plugin-activation.php:3609
+msgid "Show Details"
+msgstr "Показать подробности"
+
+#: include/tgm/class-tgm-plugin-activation.php:3609
+msgid "Hide Details"
+msgstr "Скрыть подробности"
+
+#: templates/header/main-menu.php:15
+msgid "Click here to add items to main navigation"
+msgstr "Нажмите здесь, чтобы добавить элементы в основную навигацию"
+
+#: templates/header/main-menu.php:30
+msgid "Click here to add main navigation"
+msgstr "Нажмите здесь, чтобы добавить основную навигацию"
+
+#. Theme URI of the plugin/theme
+msgid "https://eagle-themes.com/themes/zante"
+msgstr "https://eagle-themes.com/themes/zante"
+
+#. Description of the plugin/theme
+msgid "Zante is a WordPress Theme crafted for your hotel & resort website."
+msgstr "Eagle-Themes"
+
+#. Author of the plugin/theme
+msgid "Eagle-Themes"
+msgstr "Eagle-Themes"
+
+#. Author URI of the plugin/theme
+msgid "https://eagle-themes.com"
+msgstr "https://eagle-themes.com"

@@ -1,0 +1,271 @@
+/* Admin options */
+
+input.zante-hidden, .zante-hidden {
+  display: none;
+}
+
+img.zante-img-select {
+  border: 2px solid #eee;
+  cursor: pointer;
+  border-radius: 4px;
+  background: #fff;
+}
+
+img.zante-img-select.selected {
+  border: 2px solid #0074a2;
+}
+
+ul.zante-img-select-wrap {
+  float: left;
+  width: 100%;
+  display: block;
+  margin: 5px 0;
+}
+
+ul.zante-img-select-wrap li {
+  float: left;
+  margin-right: 1px;
+}
+
+
+/* REDUX */
+#zante_settings-room_services input {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+
+/* Welcome panel */
+
+.welcome-panel.zante-welcome-panel {
+  border-left: 4px solid #8ab7ab;
+  margin: 33px 20px 0 0;
+  padding-bottom: 30px;
+}
+
+.welcome-panel.zante-welcome-panel h3 {
+  font-weight: 500;
+}
+
+.welcome-panel.zante-welcome-panel .welcome-panel-column, .welcome-panel.zante-welcome-panel .welcome-panel-column:first-child {
+  max-width: 330px;
+  margin-right: 40px;
+  width: 25%;
+}
+
+.welcome-panel.zante-welcome-panel .welcome-panel-column:last-child {
+  margin-right: 0;
+}
+
+.zante-customize-welcome {
+  margin-top: 24px;
+  display: inline-block;
+}
+
+/* Buttons */
+
+.zante.welcome-panel .button {
+  background: #8ab7ab;
+  box-shadow: none;
+  color: #fff;
+  padding: 10px 40px;
+  height: 50px;
+  outline: none;
+  border-color: #8ab7ab;
+  border-radius: 2px;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: .5s;
+}
+
+.zante.welcome-panel .button:hover {
+  background: #7ea89d;
+  border-color: #7ea89d;
+}
+
+.zante.welcome-panel h3 span {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+  background: #8ab7ab;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+/* Widgets */
+
+.zante-widget-content-sortable label {
+  width: 100%;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Posts & Pages Options */
+
+.zante-img-select-wrap li {
+  margin-right: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.zante-img-select-wrap li span {
+  display: block;
+}
+
+img.zante-img-select {
+  border-color: #f2f2f2;
+}
+
+/* Hide WordPres Update Message */
+
+.theme-browser .update-message, .theme-overlay .theme-about .theme-info .notice {
+  display: none;
+}
+
+/* VC */
+
+#vc_inline-frame #text_rotating {
+  display: none !important;
+}
+
+.icon-eagle.vc_element-icon {
+  background-image: url(../../images/icons/icon-eagle.png);
+  background-size: 32px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0;
+}
+
+.vc_ui-add-element-header-container .ealge-themes-tab {
+  position: relative;
+}
+
+.vc_ui-add-element-header-container .ealge-themes-tab button {
+  background-color: rgba(0, 0, 0, .1) !important;
+  padding-right: 40px !important;
+  color: #fff !important;
+  font-weight: bold; !important
+}
+
+.vc_ui-add-element-header-container .ealge-themes-tab:after {
+  content: '';
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-image: url(../../images/icons/icon-eagle.png);
+  background-size: 24px;
+  width: 24px;
+  height: 24px;
+}
+
+/* METABOXES */
+
+.cmb2-postbox .hndle.ui-sortable-handle {
+  display: none;
+}
+
+.cmb2-postbox .cmb-tabs ul.cmb-tab-nav li a {
+  padding: 14px 10px;
+}
+
+.cmb2-postbox .cmb-tabs ul.cmb-tab-nav, .cmb2-postbox .cmb-tabs ul.cmb-tab-nav:after {
+  background: #fff;
+  border-right: 1px solid #eee;
+}
+
+.cmb2-postbox .cmb-tabs ul.cmb-tab-nav li a {
+  border-bottom: 1px solid #eee;
+}
+
+.cmb2-postbox .cmb-tabs ul.cmb-tab-nav li.cmb-tab-active a {
+  border-left: 0;
+  border-right: 0;
+  background: #0085ba;
+  color: #fff;
+}
+
+.cmb2-postbox .cmb-tabs ul.cmb-tab-nav li a {
+  font-size: 14px;
+}
+
+/* switch ------------- */
+
+.cmb2-switch {
+  margin-right: 15px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+.cmb2-switch label {
+  cursor: pointer;
+}
+
+.cmb2-switch input {
+  display: none;
+}
+
+.cmb2-enable, .cmb2-disable {
+  background: #F5F5F5;
+  color: #95999d;
+  border: 1px solid #bfbfbf;
+  display: block;
+  float: left;
+}
+
+.cmb2-enable {
+  border-radius: 3px 0 0 3px;
+  border-right: 0 none;
+}
+
+.cmb2-disable {
+  border-left: 0 none;
+  border-radius: 0 3px 3px 0;
+}
+
+.cmb2-enable span, .cmb2-disable span {
+  line-height: 30px;
+  display: block;
+  font-weight: normal;
+  white-space: nowrap;
+  padding: 0 10px;
+}
+
+.cmb2-disable.selected {
+  background-color: #bfbfbf;
+  background-image: none;
+  border-color: #bfbfbf;
+  color: #fff;
+}
+
+.cmb2-enable.selected {
+  background-color: #0085ba;
+  background-image: none;
+  border-color: #0085ba;
+  box-shadow: none;
+  color: #fff;
+}
+
+/* CMB2 TABS */
+.cmb-tabs .cmb-th {
+  width: 20% !important;
+}
+
+.cmb-tabs .cmb-th + .cmb-td, .cmb-tabs .cmb-th + .cmb-td {
+  width: 80% !important;
+}
+
+/* REV UPDATE MESSAGE */
+.rs-update-notice-wrap {
+  display: none;
+}
+
+
+
+/* admin icons */
+.zante-icon { 
+  background-image: url('../../images/admin/menu_icon.png');
+}
